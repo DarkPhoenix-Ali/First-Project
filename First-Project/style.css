@@ -1,0 +1,47 @@
+body {
+	background-color: black;
+	color: white;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+#x { 
+	font-size: 17em;
+	font-weight: oblique;
+	font-family: "orbitron", sans-serif;
+	margin: 0px;
+}
+div#introduce {
+	text-align: center;
+}
+
+#introduce h2 {
+	font-family: "unica one", sans-serif;
+	margin: 0px;
+	font-size: 3em;
+}
+
+#introduce p {
+	font-family: "orbitron", sans-serif;
+	animation: show 10s;
+}
+
+@keyframes show {
+	from { opacity: 0% }
+	to { opacity: 100% }
+}
+
+#introduce span {
+	font-size: 1em;
+	color: gray;
+}
+
+#introduce span a {
+	color: gray;
+	text-decoration: none;
+	transition: all 300ms ease-in-out;
+}
+
+#introduce span a:hover {
+	color: white;
+}
